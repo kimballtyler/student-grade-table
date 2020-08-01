@@ -5,7 +5,7 @@ class GradeForm {
     this.formElement.addEventListener("submit", this.handleSubmit);
   }
   onSubmit(createGrade) {
-    this.createGrade = createGrade
+    this.createGrade = createGrade;
   }
   handleSubmit() {
     event.preventDefault(event);
